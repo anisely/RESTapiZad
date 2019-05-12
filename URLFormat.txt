@@ -1,0 +1,6 @@
+List
+http://localhost:8080/restapp/rest/movies
+List by ID
+http://localhost:8080/restapp/rest/movies/1
+Show Comments of Movie with ID
+http://localhost:8080/restapp/rest/movies/1/comments

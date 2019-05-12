@@ -1,0 +1,441 @@
+{
+	"info": {
+		"_postman_id": "7d345d98-0a54-4e8e-9458-b9a69e00b465",
+		"name": "RESTapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies"
+					]
+				},
+				"description": "Lista"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\" : \"Nemo\",\n\"info\" : \"It's a fishy movie\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies"
+					]
+				},
+				"description": "AddFirst"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies Copy Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies"
+					]
+				},
+				"description": "Lista"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\" : \"Titanic\",\n\"info\" : \"It's a different fishy movie\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies"
+					]
+				},
+				"description": "AddSecond"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies"
+					]
+				},
+				"description": "Lista"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies/2/comments",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"grade\" : 10\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies/1/grade",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies",
+						"1",
+						"grade"
+					]
+				},
+				"description": "CommentFirst"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies"
+					]
+				},
+				"description": "Lista"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies/2/comments",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\" : \"Lorem Ipsum Lorem Lorem Lorem\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies/2/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies",
+						"2",
+						"comments"
+					]
+				},
+				"description": "AddCommentSecond"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies/3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies",
+						"3"
+					]
+				},
+				"description": "BadDelete"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies",
+						"1"
+					]
+				},
+				"description": "CorrectDelete?"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies"
+					]
+				},
+				"description": "Lista"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies/1/5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies/1/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies",
+						"1",
+						"5"
+					]
+				},
+				"description": "Add Grade 5"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies/1/10",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies/1/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies",
+						"1",
+						"10"
+					]
+				},
+				"description": "Add Grade 10"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/movies/1/grade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/samplerestapp/rest/movies/1/grade",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"samplerestapp",
+						"rest",
+						"movies",
+						"1",
+						"grade"
+					]
+				},
+				"description": "Get Grade"
+			},
+			"response": []
+		}
+	]
+}
